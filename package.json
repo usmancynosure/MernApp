@@ -1,0 +1,27 @@
+{
+  "name": "inventory-management-system-mern-crud-app",
+  "version": "1.0.0",
+  "description": "A simple MERN project that lets the user insert, update, delete & get products from the MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd Frontend/inventory_management_system && npm start",
+    "backend": "cd Backend && npm start",
+    "start": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhy20401/Inventory-Management-System-MERN-CRUD-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mhy20401/Inventory-Management-System-MERN-CRUD-App/issues"
+  },
+  "homepage": "https://github.com/mhy20401/Inventory-Management-System-MERN-CRUD-App#readme",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

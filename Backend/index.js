@@ -12,6 +12,12 @@ app.use(cors());
 app.use(express.json());
 app.use(router);
 
+app.listen(
+
+  5000,
+  ()=>console.log("Backend is running")
+)
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
